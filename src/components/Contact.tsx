@@ -42,7 +42,7 @@ export default function Contact() {
     <div className="min-h-screen bg-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-[#0F2A44] mb-6">Contact</h1>
+          <h1 className="text-5xl font-bold text-[#1F4E79] mb-6">Contact</h1>
           <div className="w-24 h-1 bg-[#C9A24D] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Parlons de vos besoins en communication stratégique. Notre équipe est à votre écoute pour vous accompagner dans vos projets.
@@ -52,7 +52,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <div className="bg-white rounded-2xl shadow-lg p-10">
-              <h2 className="text-3xl font-bold text-[#0F2A44] mb-8">
+              <h2 className="text-3xl font-bold text-[#1F4E79] mb-8">
                 Envoyez-nous un message
               </h2>
 
@@ -75,7 +75,7 @@ export default function Contact() {
                     value={formData.nom}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0F2A44] focus:border-transparent outline-none transition"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1F4E79] focus:border-transparent outline-none transition"
                     placeholder="Votre nom"
                   />
                 </div>
@@ -89,7 +89,7 @@ export default function Contact() {
                     name="organisation"
                     value={formData.organisation}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0F2A44] focus:border-transparent outline-none transition"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1F4E79] focus:border-transparent outline-none transition"
                     placeholder="Votre entreprise ou institution"
                   />
                 </div>
@@ -104,7 +104,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0F2A44] focus:border-transparent outline-none transition"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1F4E79] focus:border-transparent outline-none transition"
                     placeholder="votre@email.com"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function Contact() {
                     name="telephone"
                     value={formData.telephone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0F2A44] focus:border-transparent outline-none transition"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1F4E79] focus:border-transparent outline-none transition"
                     placeholder="+33 X XX XX XX XX"
                   />
                 </div>
@@ -132,7 +132,7 @@ export default function Contact() {
                     value={formData.sujet}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0F2A44] focus:border-transparent outline-none transition"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1F4E79] focus:border-transparent outline-none transition"
                   >
                     <option value="">Sélectionnez un sujet</option>
                     <option value="monitoring">Monitoring médiatique</option>
@@ -154,14 +154,14 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0F2A44] focus:border-transparent outline-none transition resize-none"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1F4E79] focus:border-transparent outline-none transition resize-none"
                     placeholder="Décrivez votre projet ou vos besoins..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-[#0F2A44] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#1F4E79] transition-colors flex items-center justify-center"
+                  className="w-full bg-gradient-to-r from-[#1F4E79] to-[#153554] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-[#153554] hover:to-[#1F4E79] transition-all flex items-center justify-center"
                 >
                   <Send size={20} className="mr-2" />
                   Envoyer le message
@@ -171,7 +171,7 @@ export default function Contact() {
           </div>
 
           <div className="space-y-8">
-            <div className="bg-gradient-to-br from-[#0F2A44] to-[#1F4E79] rounded-2xl shadow-lg p-10 text-white">
+            <div className="bg-gradient-to-br from-[#1F4E79] to-[#153554] rounded-2xl shadow-lg p-10 text-white">
               <h2 className="text-3xl font-bold mb-8">Coordonnées</h2>
 
               <div className="space-y-6">
@@ -211,7 +211,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-10">
-              <h3 className="text-2xl font-bold text-[#0F2A44] mb-6">
+              <h3 className="text-2xl font-bold text-[#1F4E79] mb-6">
                 Horaires d'ouverture
               </h3>
               <div className="space-y-3 text-gray-700">
@@ -230,19 +230,19 @@ export default function Contact() {
               </div>
               <div className="mt-6 pt-6 border-t border-gray-200">
                 <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-[#0F2A44]">Service d'urgence :</span> Disponible 24/7 pour nos clients en situation de crise
+                  <span className="font-semibold text-[#1F4E79]">Service d'urgence :</span> Disponible 24/7 pour nos clients en situation de crise
                 </p>
               </div>
             </div>
 
             <div className="bg-gray-100 rounded-2xl p-8 text-center">
-              <h3 className="text-xl font-bold text-[#0F2A44] mb-3">
+              <h3 className="text-xl font-bold text-[#1F4E79] mb-3">
                 Besoin d'une réponse rapide ?
               </h3>
               <p className="text-gray-600 mb-6">
                 Planifiez un rendez-vous téléphonique avec l'un de nos experts
               </p>
-              <button className="bg-[#0F2A44] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1F4E79] transition-colors">
+              <button className="bg-gradient-to-r from-[#1F4E79] to-[#153554] text-white px-8 py-3 rounded-lg font-semibold hover:from-[#153554] hover:to-[#1F4E79] transition-all">
                 Prendre rendez-vous
               </button>
             </div>

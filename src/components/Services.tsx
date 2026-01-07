@@ -15,7 +15,7 @@ export default function Services() {
         'Alertes immédiates sur mentions critiques',
         'Cartographie des acteurs médiatiques',
       ],
-      color: '#0F2A44',
+      color: '#1F4E79',
     },
     {
       icon: <Mic size={40} />,
@@ -30,7 +30,7 @@ export default function Services() {
         'Gestion des situations sensibles et de crise',
         'Simulations et mises en situation réelles',
       ],
-      color: '#1F4E79',
+      color: '#153554',
     },
     {
       icon: <UserCheck size={40} />,
@@ -45,7 +45,7 @@ export default function Services() {
         'Mise en relation avec influenceurs et médias',
         'Coaching en communication personnelle',
       ],
-      color: '#0F2A44',
+      color: '#1F4E79',
     },
     {
       icon: <Newspaper size={40} />,
@@ -60,7 +60,7 @@ export default function Services() {
         'Placement d\'articles et tribunes',
         'Gestion de l\'e-réputation',
       ],
-      color: '#1F4E79',
+      color: '#153554',
     },
     {
       icon: <Calendar size={40} />,
@@ -75,7 +75,7 @@ export default function Services() {
         'Production de contenus événementiels',
         'Reporting et monitoring post-événement',
       ],
-      color: '#0F2A44',
+      color: '#1F4E79',
     },
   ];
 
@@ -83,7 +83,7 @@ export default function Services() {
     <div className="min-h-screen bg-white py-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-[#0F2A44] mb-6">Nos Services</h1>
+          <h1 className="text-5xl font-bold text-[#1F4E79] mb-6">Nos Services</h1>
           <div className="w-24 h-1 bg-[#C9A24D] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Une gamme complète de services intégrés pour maîtriser votre communication et valoriser votre image
@@ -102,8 +102,7 @@ export default function Services() {
                 {index % 2 === 0 ? (
                   <>
                     <div
-                      className="md:w-2/5 p-12 text-white flex flex-col justify-center"
-                      style={{ backgroundColor: service.color }}
+                      className="md:w-2/5 p-12 text-white flex flex-col justify-center bg-gradient-to-br from-[#1F4E79] to-[#153554]"
                     >
                       <div className="mb-6 text-[#C9A24D]">{service.icon}</div>
                       <h2 className="text-3xl font-bold mb-2 text-white">{service.title}</h2>
@@ -113,15 +112,14 @@ export default function Services() {
                       </p>
                     </div>
                     <div className="md:w-3/5 p-12">
-                      <h3 className="text-2xl font-semibold text-[#0F2A44] mb-6">
+                      <h3 className="text-2xl font-semibold text-[#1F4E79] mb-6">
                         Ce que nous proposons :
                       </h3>
                       <ul className="space-y-4">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start">
                             <span
-                              className="inline-block w-6 h-6 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-0.5"
-                              style={{ backgroundColor: service.color }}
+                              className="inline-block w-6 h-6 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-0.5 bg-[#1F4E79]"
                             >
                               <span className="text-white text-sm">✓</span>
                             </span>
@@ -134,15 +132,14 @@ export default function Services() {
                 ) : (
                   <>
                     <div className="md:w-3/5 p-12 order-2 md:order-1">
-                      <h3 className="text-2xl font-semibold text-[#0F2A44] mb-6">
+                      <h3 className="text-2xl font-semibold text-[#1F4E79] mb-6">
                         Ce que nous proposons :
                       </h3>
                       <ul className="space-y-4">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start">
                             <span
-                              className="inline-block w-6 h-6 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-0.5"
-                              style={{ backgroundColor: service.color }}
+                              className="inline-block w-6 h-6 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-0.5 bg-[#153554]"
                             >
                               <span className="text-white text-sm">✓</span>
                             </span>
@@ -152,8 +149,7 @@ export default function Services() {
                       </ul>
                     </div>
                     <div
-                      className="md:w-2/5 p-12 text-white flex flex-col justify-center order-1 md:order-2"
-                      style={{ backgroundColor: service.color }}
+                      className="md:w-2/5 p-12 text-white flex flex-col justify-center order-1 md:order-2 bg-gradient-to-br from-[#153554] to-[#1F4E79]"
                     >
                       <div className="mb-6 text-[#C9A24D]">{service.icon}</div>
                       <h2 className="text-3xl font-bold mb-2 text-white">{service.title}</h2>
@@ -169,7 +165,7 @@ export default function Services() {
           ))}
         </div>
 
-        <div className="mt-20 bg-gradient-to-br from-[#0F2A44] to-[#1F4E79] rounded-2xl p-12 text-center text-white">
+        <div className="mt-20 bg-gradient-to-br from-[#1F4E79] to-[#153554] rounded-2xl p-12 text-center text-white">
           <h2 className="text-4xl font-bold mb-6">Notre Approche Intégrée</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90 text-gray-200">
             Ce qui nous distingue : une vision globale et cohérente de votre communication. Nos services se complètent et s'articulent pour créer une stratégie harmonieuse et efficace.

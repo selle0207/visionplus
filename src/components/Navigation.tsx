@@ -45,8 +45,8 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                 onClick={() => handleNavigate(item.id)}
                 className={`text-sm font-medium transition-colors ${
                   activeSection === item.id
-                    ? 'text-[#0F2A44] border-b-2 border-[#C9A24D]'
-                    : 'text-gray-700 hover:text-[#0F2A44]'
+                    ? 'text-[#1F4E79] border-b-2 border-[#C9A24D]'
+                    : 'text-gray-700 hover:text-[#1F4E79]'
                 } py-2`}
               >
                 {item.label}
@@ -72,7 +72,7 @@ export default function Navigation({ activeSection, onNavigate }: NavigationProp
                 onClick={() => handleNavigate(item.id)}
                 className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium ${
                   activeSection === item.id
-                    ? 'bg-[#0F2A44] text-white'
+                    ? 'bg-[#1F4E79] text-white'
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
               >

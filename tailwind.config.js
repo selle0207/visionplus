@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#0F2A44', // Bleu foncé
+          DEFAULT: '#1F4E79', // Bleu foncé
           light: '#1F4E79',   // Bleu plus clair
           dark: '#0A1D30',
         },

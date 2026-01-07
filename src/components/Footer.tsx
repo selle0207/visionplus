@@ -6,7 +6,7 @@ interface FooterProps {
 
 export default function Footer({ onNavigate }: FooterProps) {
   return (
-    <footer className="bg-[#0F2A44] text-white">
+    <footer className="bg-gradient-to-r from-[#1F4E79] to-[#153554] text-white">
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
@@ -109,19 +109,19 @@ export default function Footer({ onNavigate }: FooterProps) {
               <div className="flex space-x-3">
                 <a
                   href="#"
-                  className="w-8 h-8 rounded-full bg-[#1F4E79] flex items-center justify-center hover:bg-[#C9A24D] hover:text-[#0F2A44] transition-colors"
+                  className="w-8 h-8 rounded-full bg-[#1F4E79] flex items-center justify-center hover:bg-[#C9A24D] hover:text-[#1F4E79] transition-colors"
                 >
                   <Linkedin size={16} />
                 </a>
                 <a
                   href="#"
-                  className="w-8 h-8 rounded-full bg-[#1F4E79] flex items-center justify-center hover:bg-[#C9A24D] hover:text-[#0F2A44] transition-colors"
+                  className="w-8 h-8 rounded-full bg-[#1F4E79] flex items-center justify-center hover:bg-[#C9A24D] hover:text-[#1F4E79] transition-colors"
                 >
                   <Facebook size={16} />
                 </a>
                 <a
                   href="#"
-                  className="w-8 h-8 rounded-full bg-[#1F4E79] flex items-center justify-center hover:bg-[#C9A24D] hover:text-[#0F2A44] transition-colors"
+                  className="w-8 h-8 rounded-full bg-[#1F4E79] flex items-center justify-center hover:bg-[#C9A24D] hover:text-[#1F4E79] transition-colors"
                 >
                   <Twitter size={16} />
                 </a>
@@ -130,7 +130,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
         </div>
 
-        <div className="border-t border-[#1F4E79] mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+        <div className="border-t border-[#153554] mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
           <p>&copy; 2024 Vision Plus. Tous droits réservés.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-[#C9A24D] transition-colors">
